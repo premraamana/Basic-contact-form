@@ -1,0 +1,55 @@
+form {
+    background-color: aliceblue;
+    width: 600px;
+    border-radius: 25px;
+    height: 800px;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 50px auto 50px;
+}
+form h1 {
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+}
+label {
+    color: black;
+    font-weight: bold;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    display: inline-block;
+    text-align: center;
+}
+input,textarea {
+    box-sizing: border-box;
+    width: 450px;
+    height: 30px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+    textarea{
+        height: 50px;
+    }
+    #button-row {
+        display: flex;
+        justify-content:space-around;
+    }
+    button {
+        flex-grow: 1;
+        width: 125px;
+        margin: 25px;
+        border: none;
+        border-radius: 15px;
+        height: 35px;
+        font-size: 20px;
+    }
+    button#send {
+        background-color: rgb(31, 13, 190);
+        color: aliceblue;
+    }
+    button#Reset{
+        background-color: rgb(93, 93, 94);
+        color: aliceblue;
+    }
